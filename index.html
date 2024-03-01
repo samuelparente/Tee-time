@@ -1,0 +1,134 @@
+<!-- 
+Licenciatura em Engenharia Informática
+Laboratório de Sistemas e Serviços Web | e-fólio B
+Samuel Parente, aluno n.º2104178 
+-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/x-icon" href="imagens/geral/golfe.ico">
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<script src="js/funcoes.js"></script>
+		<title>LSSWeb - E-folio B</title>
+	</head>
+	<body>
+			<div class="cabecalho">
+				<div class="logo">
+					<a href="index.html"><img src="imagens/geral/logo_tee_time.png" class="logo_img"></img></a>
+				</div>
+				<div class="nome-site">
+					<span>Tee Time</span>
+				</div>
+				<div class="menu">
+					<a href="#">HOME</a>
+					<a href="html/historia.html">HISTÓRIA</a>
+					<a href="html/regras.html">REGRAS E CONCEITOS</a>
+					<a href="#seccao2">GALERIA</a>
+					<a href="html/equipamentos.html">EQUIPAMENTOS</a>
+					<a href="html/contactos.html">CONTACTOS E INFORMAÇÕES</a>
+					<a href="#rodape-index">SOBRE</a>
+				</div>
+			</div>
+			<div class="conteudo">
+			
+				<div class="titulo-subtitulo-primario">
+					<h1>Tee Time</h1>
+					<h2>Descubra o mundo do golfe.</h2>
+				</div>
+				<div id="div-a-index">
+					<div id="div-a-index-esq-conteudo">
+						<h3>Bem-vindo ao Tee Time!</h3>
+						<p>Esta página pessoal sobre golfe foi criada como projeto de e-fólio B para
+						a disciplina de Laboratorio de Sistemas e Serviços Web, na qual partilho informações
+						sobre este desporto apaixonante, do qual sou entusiasta.</p>
+					</div>
+					<div id="div-a-index-dir-conteudo">
+					</div>
+				</div>
+				<div class="titulo-subtitulo-secundario" id="seccao2">
+					<h3>Galeria de imagens</h3>
+					<p>Para se inspirar.</p>
+				</div>
+				<div id="div-b-index">
+					<div id="slider-imagens">
+						<img id="imagem-atual"src="imagens/galeria/imagem1.jpg" alt="Imagem 1">
+						<div id="imagens-thumbs">
+						</div>
+						
+						<p class="legenda">FONTE:https://wallpapersafari.com/golf-theme-wallpaper/</p>
+					
+					</div>
+				</div>
+				<div class="rodape" id="rodape-index">
+					<div class="rodape-conteudo">
+						<h3>Licenciatura em Engenharia Informática</h3>
+						<p>Laboratório de Sistemas e Serviços Web | e-fólio B<br>
+						Samuel Parente, aluno n.º2104178</p>
+					</div>
+					<div id="rodape-tags">
+						<hr>
+						<p><b>Tags HTML usadas:</b></p>
+							<p>&lt;!DOCTYPE html&gt; para indicar que é um documento html, usado em todas as páginas html.<br>
+							<p>&lt;html&gt;&lt;/html&gt; para indicar o inicio e fim do documento html.<br> 
+							<p>&lt;head&gt;&lt;/head&gt; local onde inseri informações sobre o documento html tais como o título que aparece no separador de navegação, a inclusão de ficheiros css e javascript, o "favicon", 
+							   entre outras informações importantes.</p>
+							<p>&lt;meta&gt; para incluir metadados. Com esta tag defini a codificação e a apresentação da página na largura total segundo o dispositivo usado bem como o zoom inicial (tamanho real-100%).</p>
+							<p>&lt;link&gt; foi usada para poder definir o favicon e a inclusão do ficheiro css.</p>
+							<p>&lt;script&gt;&lt;/script&gt; foi usada para incluir o ficheiro com o código javascript.</p>
+							<p>&lt;title&gt;&lt;/title&gt; usei para definir o título "LSSWeb - E-folio B" que aparece no separador do navegador.</p>
+							<p>O código definido na tag &lt;head&gt;&lt;/head&gt; não é apresentado ao utilizador.</p>
+							<p>&lt;body&gt;&lt;/body&gt; é onde fica o código html que vai "formatar" o que é apresentado ao utilizador.</p>
+							<p>&lt;div&gt;&lt;/div&gt; usei ao longo de todo o website para definir o layout com secções/"containers". Por exemplo para colocar o logótipo e o menu.</p>	
+							<p>&lt;a&gt;&lt;/a&gt;usei para criar links. Por exemplo para definir nos itens do menu, o destino quando o utilizador clica numa opção do menu.</p>
+							<p>&lt;h1&gt;&lt;/h1&gt; para criar um título principal com a frase "Tee Time".</p>
+							<p>&lt;h2&gt;&lt;/h2&gt; para criar um título secundário com a frase "Descubra o mundo do golfe.".</p>
+							<p>&lt;h3&gt;&lt;/h3&gt; para criar um título mais específico com a frase "Bem-vindo ao Tee Time!".</p>
+							<p>&lt;p&gt;&lt;/p&gt; para criar um parágrafo com a frase "Para se inspirar."</p>
+							<p>&lt;img&gt;&lt;/img&gt;para inserir a imagem do logótipo armazenada em "imagens/geral/logo_tee_time.png".</p>
+							<p>&lt;b&gt;&lt;/b&gt; para colocar a negrito a frase "Tags HTML usadas:".</p>
+							<p>&lt;br&gt; para mudar de linha sem inserir espaço extra ente linhas com a frase "Laboratório de Sistemas e Serviços Web | e-fólio B".</p>
+							<p>Usei &amp;lt; &amp;gt; para poder escrever as tags de maneira a ser apresentado como texto e não serem interpretadas como código html.</p>
+						<p><b>Tags CSS usadas:</b></p>
+							<p>Usei @charset "utf-8" para definir a codificação de caracteres correta para o documento. Isso garante que os caracteres especiais sejam exibidos corretamente em diferentes navegadores e sistemas operacionais.</p>
+							<p>O "." permite seleccionar elementos a partir de um nome de classe, como exemplo ".cabecalho".</p>
+							<p>O "#" permite seleccionar elementos a partir de um nome de id, como exemplo "#imagens-thumbs".</p>
+							<p>Usei "html" para por exemplo, definir em toda a extensão do documento, a propriedade de fontes a usar.</p>
+							<p>"scroll-behavior:smooth" permite um deslocamento suave na página ao clicar no item de menu que vai para um destino na própria página, como exemplo clicar no "SOBRE".</p>
+							<p>O"body" seleciona todo o conteúdo visível da página e nele defini, por exemplo, que tem 100% de altura.</p>
+							<p>O "background-image" define a imagem de fundo que escolhi como sendo "../imagens/geral/golfe_background.jpg", o "background-attachment: fixed" para a imagem de fundo ficar fixa, "background-repeat: no-repeat" para
+							   não repetir a imagem de fundo, "background-size" Defini imagem à largura total com 100% e para não ficar distorcida a altura em "auto".</p>
+							<p>"width" usei no "body" para definir largura total (100%) ajustada ao dispositivo.</p>
+							<p>"margin" define a margem de um elemento, como exemplo no body tem margem 0.</p>
+							<p>"border" define o contorno dos elementos, neste caso usei no body com valor 0.</p>       
+							<p>"font-family" define a família de fontes a utilizar nos navegadores.</p>
+							<p>Usei "height" para definir altura fixa, como exemplo 80px para o cabeçalho.</p>
+							<p>"background" usado em vários elementos para escolher a cor de fundo, como exemplo, no cabeçalho.</p>
+							<p>"display" ficou com valor "flex" (usei no elemento ".titulo-subtitulo-primario") para atribuir ao elemento a propriedade de ser flexível para os elementos dentro deste poderem se adaptar a tamanhos de ecrã diferentes dos vários dispositivos.</p>
+							<p>"flex-direction" usado no elemento ".titulo-subtitulo-primario" para indicar o modo de distribuição dos elementos.</p>
+							<p>"justify-content" é a maneira de organizar o espaço disponível para os elementos(usei no elemento ".rodape").</p>
+							<p>"align-items" serve para alinhar os elementos, como foi usado no elemento ".titulo-subtitulo-secundario".</p>
+							<p>"position" usado no elemento ".cabecalho" para fixar no topo da página.</p>
+							<p>"z-index" foi usado para que a barra (cabeçalho) no topo da página ficasse sempre à frente de todo o conteúdo.</p>
+							<p>Usei o "box-shadow" no elemento ".cabecalho" para adicionar um efeito de sombreado.</p>
+							<p>"text-align" utilizado para centrar o texto no elemento ".titulo-subtitulo-secundario".</p>
+							<p>Para definir a cor do texto presente no elemento ".titulo-subtitulo-secundario" usei "color".</p>
+							<p>"border-radius" usei para arredondar os cantos do elemento "#div-a-index-esq-conteudo".</p>
+							<p>Com "padding" defini em "#div-a-index-esq-conteudo" espaçamento entre o conteúdo e o limite do elemento. Também posso indicar individualmente caso necessário, se quero no topo (padding-top),fundo (padding-bottom),à esquerda (padding-left) e à direita (padding-right).</p>
+							<p>Usei "line-height" para alterar o espaçamento entre linhas do elemento ".espaco-linhas".</p>
+							<p>A tag "cursor" usei para indicar que as imagens miniaturas são elementos clicáveis. Elementos ".thumb".</p>
+							<p>Usei "box-sizing" no elemento ".div-1-coluna" para indicar que o tamanho dessa "div" inclui o "padding" definido, os "borders" e o conteúdo.</p>
+							<p>Usei "object-fit" no elemento ".thumb" para a imagem ocupar o tamanho todo do elemento.</p>
+							<p>Usei "text-decoration" no menu (".menu a") nos elementos "a" para não mostrar o sublinhado.</p>
+							<p>"transition" foi usado para definir a duração do efeito de transição nos links do menu.</p>
+							<p>Usei "font-size" no elemento ".legenda" para definir o tamanho da fonte.</p>
+							<p>Usei "font-weight" para definir o elemento ".nome-site" ("Tee Time") em negrito.</p>
+							<p>No caso do elemento ser seleccionado por classe, as propriedades aplicam-se a todos os elementos dessa classe. No caso de ser seleccionado por id, as propriedades apenas se aplicam a esse elemento pois o id é único.</p>
+					</div>
+				</div>
+			</div>
+	</body>
+</html>
